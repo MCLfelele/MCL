@@ -45,8 +45,9 @@ const Banner = () => {
                         </div>
                     </div>
 
-                    <div className='col-span-6 flex justify-center'>
-                        <Image src="/assets/banner/pic6.jpg" alt="nothing" width={900} height={705}  className="max-w-sm rounded border bg-white p-1 object-cover h-1000 w-2000 dark:border-neutral-700 dark:bg-neutral-800"/>
+                    <div className='col-span-6 flex justify-left '>
+                        <Image src="/assets/banner/pic6.jpg" alt="nothing" width={900} height={705}  />
+
                     </div>
                 </div>
             </div>
