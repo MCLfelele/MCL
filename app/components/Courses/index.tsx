@@ -37,36 +37,14 @@ const postData: DataType[] = [
         imgSrc: '/assets/gallery/pic4.jpeg',
        
     },
-    {/*
-        heading: 'Recreational Activites',
-        heading2: '',
-        name: "Colt stelle",
-        imgSrc: '/assets/courses/courseone.png',
-        students: 150,
-        classes: 12,
-        price: 20,
-        rating: 4.7,
-    },
     {
-        heading: 'Technology',
+        heading: 'Confidence',
         heading2: '',
-        name: "Colt stelle",
-        imgSrc: '/assets/courses/coursetwo.png',
-        students: 150,
-        classes: 12,
-        price: 20,
-        rating: 4.7,
+        name: "Self Awareness",
+        imgSrc: '/assets/gallery/mcl3.jpg',
+       
     },
-    {
-        heading: 'Great Staff',
-        heading2: '',
-        name: "Colt stelle",
-        imgSrc: '/assets/courses/coursethree.png',
-        students: 150,
-        classes: 12,
-        price: 20,
-        rating: 4.7,
-    */},
+
 ]
 
 // CAROUSEL SETTINGS

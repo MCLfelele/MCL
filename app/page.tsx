@@ -8,8 +8,7 @@ import Newsletter from './components/Newsletter/Newsletter';
 import Gallery from './components/Gallery/index';
 import { BrowserRouter, Routes, Route, Link } from 'react-router-dom'; 
 import ReactDOM from "react-dom/client";
-import Ayo from "./PrimaryOne/Ayo";
-import app from "./app";
+
 
 
 
@@ -28,12 +27,7 @@ export default function Home() {
         <Newsletter />
 
         
-          <Routes>
-            <Route path="app" element={<app />}>
-              <Route path="ayo" element={<Ayo />} />
-              
-            </Route>
-          </Routes>
+         
         
         
 

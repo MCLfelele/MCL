@@ -28,15 +28,15 @@ const Banner = () => {
                         <div className='flex items-center justify-between pt-10 lg:pt-4'>
                             <div className='flex gap-2'>
                                 <Image src="/assets/banner/check-circle.svg" alt="check-image" width={30} height={30} className='smallImage'/>
-                                <p className='text-sm sm:text-lg font-normal text-black'>Day Care</p>
+                                <p className='text-sm sm:text-lg font-normal text-black'>Toddler</p>
                             </div>
                             <div className='flex gap-2'>
                                 <Image src="/assets/banner/check-circle.svg" alt="check-image" width={30} height={30} className='smallImage'/>
-                                <p className='text-sm sm:text-lg font-normal text-black'>Nursery</p>
+                                <p className='text-sm sm:text-lg font-normal text-black'>Preschool</p>
                             </div>
                             <div className='flex gap-2'>
                                 <Image src="/assets/banner/check-circle.svg" alt="check-image" width={30} height={30} className='smallImage'/>
-                                <p className='text-sm sm:text-lg font-normal text-black'>Primary</p>
+                                <p className='text-sm sm:text-lg font-normal text-black'>Elementary</p>
                             </div>
                             <div className='flex gap-2'>
                                 <Image src="/assets/banner/check-circle.svg" alt="check-image" width={30} height={30} className='smallImage'/>
@@ -46,7 +46,7 @@ const Banner = () => {
                     </div>
 
                     <div className='col-span-6 flex justify-center'>
-                        <Image src="/assets/banner/pic6.jpeg" alt="nothing" width={900} height={705}  class="max-w-sm rounded border bg-white p-1 object-cover h-1000 w-2000 dark:border-neutral-700 dark:bg-neutral-800" alt="..."/>
+                        <Image src="/assets/banner/pic6.jpg" alt="nothing" width={900} height={705}  className="max-w-sm rounded border bg-white p-1 object-cover h-1000 w-2000 dark:border-neutral-700 dark:bg-neutral-800" alt="..."/>
                     </div>
                 </div>
             </div>
