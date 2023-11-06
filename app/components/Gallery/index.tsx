@@ -129,7 +129,7 @@ export default class MultipleItems extends Component {
                         
                     </div>
 
-                    <div class="container grid grid-cols-3 gap-2 mx-auto">
+                    <div className="container grid grid-cols-3 gap-2 mx-auto">
                         <div className="w-full rounded">
                             <img src="./assets/gallery/pic1.jpg"
                                 alt="image" />

@@ -17,31 +17,7 @@ const postData: DataType[] = [
         name: 'Shoo Thar Mien',
         imgSrc: '/assets/mentor/user3.png',
     },
-    {/*
-        profession: 'Senior UX Designer',
-        name: 'Shoo Thar Mien',
-        imgSrc: '/assets/mentor/user2.png',
-    },
-    {
-        profession: 'Senior UX Designer',
-        name: 'Shoo Thar Mien',
-        imgSrc: '/assets/mentor/user1.png',
-    },
-    {
-        profession: 'Senior UX Designer',
-        name: 'Shoo Thar Mien',
-        imgSrc: '/assets/mentor/user3.png',
-    },
-    {
-        profession: 'Senior UX Designer',
-        name: 'Shoo Thar Mien',
-        imgSrc: '/assets/mentor/user2.png',
-    },
-    {
-        profession: 'Senior UX Designer',
-        name: 'Shoo Thar Mien',
-        imgSrc: '/assets/mentor/user1.png',
-    */}
+    
 ]
 
 // CAROUSEL SETTINGS
@@ -125,7 +101,7 @@ export default class MultipleItems extends Component {
                       <h2 className="lh-82 text-midnightblue text-4xl md:text-55xl text-center md:text-start font-semibold">Meet our <br /> Director.</h2>
                       <div className="flex flex-wrap justify-center items-start"> {/* Added items-start */}
                         <div className="flex items-start"> {/* Added this div */}
-                          <img src="./assets/mentor/director.jpg" alt="..." class="shadow rounded max-w-full h-auto align-middle border-none" />
+                          <img src="./assets/mentor/director.jpg" alt="..." className="shadow rounded max-w-full h-auto align-middle border-none" />
                           <p className="px-2 pl-5"> {/* Removed float classes */}
                             A very warm welcome to the Montessori Careland Family where every child matters. We are very proud of our school and the accomplishments of our students. The dynamic combination of our professional educators, dedicated parents and community members ensure that all students achieve beyond their potential and become lifelong learners to ensure their place as Global citizens in the international communities around the world.
 
