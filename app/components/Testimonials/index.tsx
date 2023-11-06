@@ -109,7 +109,7 @@ export default class MultipleItems extends Component {
                             <div key={i}>
                                 <div className={`bg-white m-4 p-5 my-20 relative ${i % 2 ? 'middleDiv' : 'testimonial-shadow'}`}>
                                     <div className="absolute top-[-45px]">
-                                        <Image src={items.imgSrc} alt={items.imgSrc} width={100} height={100} className="inline-block" />
+                                        <Image src={items.imgSrc} alt="" width={100} height={100} className="inline-block" />
                                     </div>
                                     <h4 className='text-base font-normal text-darkgray my-4'>{items.comment}</h4>
                                     <hr style={{ color: "#D7D5D5" }} />

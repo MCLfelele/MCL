@@ -71,7 +71,7 @@ const Register = () => {
                                                     Enroll Your Child
                                                 </h2>
                                             </div>
-                                            <form onSubmit ="" className="mt-8 space-y-6" action="#" method="POST">
+                                            <form className="mt-8 space-y-6" action="#" method="POST">
                                                 <input type="hidden" name="remember" defaultValue="true" />
                                                 <div className="-space-y-px rounded-md shadow-sm">
                                                     <div>
@@ -82,8 +82,8 @@ const Register = () => {
                                                             id="email-address"
                                                             name="name"
                                                             type="name"
-                                                            value={name}
-                                                            onChange={(e) => setEmail(e.target.value)}
+                                                            value=""
+                                                            
                                                             autoComplete="email"
                                                             required
                                                             className="relative block w-full appearance-none rounded-none rounded-t-md border border-grey500 px-3 py-2 text-gray-900 placeholder-gray-500 focus:z-10 focus:border-indigo-500 focus:outline-none focus:ring-indigo-500 sm:text-sm"
@@ -99,7 +99,7 @@ const Register = () => {
                                                             name="password"
                                                             type="password"
                                                             value=""
-                                                            onChange={(e) => setPassword(e.target.value)}
+                                                            
                                                             autoComplete="current-password"
                                                             required
                                                             className="relative block w-full appearance-none rounded-none rounded-b-md border border-grey500 px-3 py-2 text-gray-900 placeholder-gray-500 focus:z-10 focus:border-indigo-500 focus:outline-none focus:ring-indigo-500 sm:text-sm"
@@ -115,7 +115,7 @@ const Register = () => {
                                                             name="password"
                                                             type="password"
                                                             value=""
-                                                            onChange={(e) => setPassword(e.target.value)}
+                                                            
                                                             autoComplete="current-password"
                                                             required
                                                             className="relative block w-full appearance-none rounded-none rounded-b-md border border-grey500 px-3 py-2 text-gray-900 placeholder-gray-500 focus:z-10 focus:border-indigo-500 focus:outline-none focus:ring-indigo-500 sm:text-sm"

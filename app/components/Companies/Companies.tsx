@@ -89,7 +89,7 @@ export default class MultipleItems extends Component {
                         <Slider {...settings}>
                             {data.map((item, i) =>
                                 <div key={i}>
-                                    <Image src={item.imgSrc} alt={item.imgSrc} width={116} height={36} />
+                                    <Image src={item.imgSrc} alt="" width={116} height={36} />
                                 </div>
                             )}
                         </Slider>

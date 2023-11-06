@@ -180,7 +180,7 @@ const Signin = () => {
     
         
 
-    const signin = (e) => {
+    const signin = (e: any) => {
         e.preventDefault();
 
         // Find the user based on the entered email
