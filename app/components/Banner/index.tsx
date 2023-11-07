@@ -10,7 +10,7 @@ const Banner = () => {
 
                     <div className='col-span-6 flex flex-col justify-evenly'>
                         <div className='flex gap-2 mx-auto lg:mx-0'>
-                            <Image src="/assets/banner/check.svg" alt="check-image" width={20} height={21} />
+                            <Image src="/assets/banner/check.svg" alt="check-image" width={20} height={20} />
                             <h3 className='text-kellygreen text-sm font-semibold text-center lg:text-start'>Goverment Approved</h3>
                         </div>
                         <h1 className='text-midnightblue text-4xl sm:text-5xl font-semibold text-center lg:text-start lh-120 pt-5 lg:pt-0'>Welcome to Montessori Careland Schools.</h1>
@@ -27,27 +27,26 @@ const Banner = () => {
 
                         <div className='flex items-center justify-between pt-10 lg:pt-4'>
                             <div className='flex gap-2'>
-                                <Image src="/assets/banner/check-circle.svg" alt="check-image" width={30} height={31} className='smallImage'/>
+                                <Image src="/assets/banner/check-circle.svg" alt="check-image" width={30} height={30} className='smallImage'/>
                                 <p className='text-sm sm:text-lg font-normal text-black'>Toddler</p>
                             </div>
                             <div className='flex gap-2'>
-                                <Image src="/assets/banner/check-circle.svg" alt="check-image" width={30} height={31} className='smallImage'/>
+                                <Image src="/assets/banner/check-circle.svg" alt="check-image" width={30} height={30} className='smallImage'/>
                                 <p className='text-sm sm:text-lg font-normal text-black'>Preschool</p>
                             </div>
                             <div className='flex gap-2'>
-                                <Image src="/assets/banner/check-circle.svg" alt="check-image" width={30} height={31} className='smallImage'/>
+                                <Image src="/assets/banner/check-circle.svg" alt="check-image" width={30} height={30} className='smallImage'/>
                                 <p className='text-sm sm:text-lg font-normal text-black'>Elementary</p>
                             </div>
                             <div className='flex gap-2'>
-                                <Image src="/assets/banner/check-circle.svg" alt="check-image" width={30} height={31} className='smallImage'/>
+                                <Image src="/assets/banner/check-circle.svg" alt="check-image" width={30} height={30} className='smallImage'/>
                                 <p className='text-sm sm:text-lg font-normal text-black'>Secondary</p>
                             </div>
                         </div>
                     </div>
 
-                    <div className='col-span-6 flex justify-left '>
+                    <div className='col-span-6 flex justify-left p '>
                         <Image src="/assets/banner/pic6.jpg" alt="nothing" width={900} height={705}  />
-
                     </div>
                 </div>
             </div>

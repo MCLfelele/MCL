@@ -180,7 +180,7 @@ const Signin = () => {
     
         
 
-    const signin = (e: any) => {
+    const signin = (e: React.FormEvent) => {
         e.preventDefault();
 
         // Find the user based on the entered email
