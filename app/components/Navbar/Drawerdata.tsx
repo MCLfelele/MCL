@@ -21,6 +21,7 @@ function classNames(...classes: string[]) {
 
 const Data = () => {
   return (
+  
     <div className="rounded-md max-w-sm w-full mx-auto">
       <div className="flex-1 space-y-4 py-1">
         <div className="sm:block">

@@ -1,38 +1,22 @@
-import Banner from './components/Banner/index';
-import Courses from './components/Courses/index';
-import Mentor from './components/Mentor/index';
-import Testimonials from './components/Testimonials/index';
+import React from 'react';
+import Banner from './components/Banner';
+import Courses from './components/Courses';
+import Mentor from './components/Mentor';
+import Testimonials from './components/Testimonials';
 import Newsletter from './components/Newsletter/Newsletter';
-import Gallery from './components/Gallery/index';
-import ReactDOM from "react-dom/client";
+import Gallery from './components/Gallery';
 
-
-
-
-
-export default function Home() {
-
-
+function Home() {
   return (
-
     <main>
-        
-        <Banner />
-        <Courses />
-        <Mentor />
-        <Gallery />
-        <Newsletter />
-
-        
-         
-        
-        
-
-      </main>
-
-
-      
-      
-    
-  )
+      <Banner />
+      <Courses />
+      <Mentor />
+      <Gallery />
+      <Newsletter />
+      {/* Add any other components or content here */}
+    </main>
+  );
 }
+
+export default Home;
